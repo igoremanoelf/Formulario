@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(106,117,130,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixaForm{
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0,0, 0.2);
+    
+}
+
+h2{
+    font-size: 45px;
+    color: rgb(2, 0, 9);
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat
+}
+
+.form-control{
+    border: 0.1px solid;
+}
+
+
+.btn-primary{
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 70px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:  radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(106,117,130,1) 100%);
+    border-color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(106,117,130,1) 100%);
+    
+    
+}
+
+.area{
+    padding: 5px;
+}
+
+.dataNascimento{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 0;
+}
