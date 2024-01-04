@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Limelight', sans-serif;
     font-family: 'Merriweather', serif;
 
@@ -9,19 +10,30 @@
 body{
     height: 100vh;
     width: 100vw;
+    background: rgb(0,0,36);
     background: rgb(138, 3, 3);
-    display: flex;
+    
     align-items: center;
     justify-content: center;
+    
 }
 
-.caixaForm{
+.caixa{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    padding: 50px;
+    padding: 60px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px 5px rgba(0, 0,0, 0.2);
-    
+}
+
+input{
+    margin: 0;
+    font-size: 35px;
+}
+
+input:focus{
+    margin: 0;
+    outline: none;
 }
 
 h2{
@@ -32,33 +44,43 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: wheat
+    color: rgb(255, 255, 255);
+    background: rgb(138, 3, 3);}
+
+.form-label{
+    margin-top: 5px;
 }
 
 .form-control{
     border: 0.1px solid;
 }
 
-
 .btn-primary{
     border-radius: 30px;
-    margin-top: 25px;
+    margin-top: 30px;
     cursor: pointer;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-left: 70px;
+    margin-left: 72px;
     padding: 10px;
-    font-size: 20px;
-   
+    font-size: 22px;
+background-color: rgb(138, 3, 3);
+    
 }
 
-.area{
-    padding: 5px;
+.form-check-input{
+    padding: 0.1px;
+    border: 0.1px solid;
 }
 
-.dataNascimento{
-    padding: 5px;
-    font-size: 20px;
-    font-weight: 0;
+.form-check{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.form-check-label{
+    margin-top: 5px;
+    font-size: 17px;
+
 }
